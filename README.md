@@ -1,4 +1,4 @@
-# ***Docker - Comandos Básicos***
+# <font color="red""> ***Docker - Comandos Básicos*** </font>
 
 ###### Antes de nada camibaremos de la rama **MASTER** a la rama **MAIN**, mediante el comando `git branch -M main`.
 
@@ -32,5 +32,24 @@
 ## 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
         
 *   En este paso 3, el comando que necesitaremos usar será: `docker run -it --name dam_ubu1 ubuntu` Este comando, nos permite crear el contenedor con el nombre que queremos, además el la parte del código `-it` nos deja poder interacturar con el.
+
+## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+
+1. Antes de comprobar la ip de nuestro equipo debemos descargar **net-tools**, mediante el comando:
+
+    `apt update`
+        
+        Este comando nos actualiza los paquetes
+
+    `apt install net-tools`
+
+        Nos descarga el paquete de net-tools
+2. Ahora ya podemos comprobar la ip de nuestro ordenador usando `ipfconfig`.
+3. En tercer lugar para poder hacer ping a google, debemos instalar el paquete **iputils-ping**.
+
+    `apt install iputils-ping`
+
+        Descarga el paquete y ya podrémos hacer ping    
+
 
 
