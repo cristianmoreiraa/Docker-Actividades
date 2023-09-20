@@ -1,4 +1,4 @@
-# <font color="red""> ***Docker - Comandos Básicos*** </font>
+# <font color="red"> ***Docker - Comandos Básicos***  </font>
 
 ###### Antes de nada camibaremos de la rama **MASTER** a la rama **MAIN**, mediante el comando `git branch -M main`.
 
@@ -49,7 +49,15 @@
 
     `apt install iputils-ping`
 
-        Descarga el paquete y ya podrémos hacer ping    
+        Descarga el paquete y ya podrémos hacer ping   
 
+
+4. ültimo paso de este apartado, deberemos abrir la terminal y escribir: `ping google.com` y ya le abremos hecho ping a google.
+
+## 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
+
+- Para crear el contenedor con el nombre **"dam_ubu2"**, debemos usar un comando que ya conocemos de pasos anteriores, `docker run -it --name dam_ubu2 ubuntu`
+
+- Debemos instalar ping como hicimos en el paso 4. Y una vez que sabemos las 2 ip de cada contendor, podremos hacer ping mediante el comando `ping ip_contenedor`
 
 
