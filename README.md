@@ -65,4 +65,14 @@
 
 1. Para poder salir de la terminal simplemente podemos escribir `exit` y ya estaremos fuera de ella.
 2. Una vez hecho el paso anterior, simplemente hemos cerrado la terminal no hemos borrado los contenedores, podremos volver a ellos con el comando `docker ps -a` y será fácil identificarlos, ya que tenemos los nombres de esos contenedores ***dam_ubu1*** y ***dam_ubu2***.
+3. Si volvemos a abrir la terminal podemos comprobar con el comando `docker ps` y veriamos los contenedores que siguen activos.
+
+
+## 7. ¿Cuanta memoria en el disco duro ocupaste?
+
+Si queremos ver la memoria que ocupa un contenedor, podemos hacerlo de manera general con el comando `docker df`, si queremos verlo de manera más especifica usaremos el mismo comando añadiendole **-v**, quedaría así: `docker df -v`.
+
+> En mi caso **dam_ubu1** ocupa un poco menos que el contenedor **dam_ubu2** (45.7) .
+
+## 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto
 
