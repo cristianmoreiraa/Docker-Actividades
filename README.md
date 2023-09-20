@@ -72,7 +72,7 @@
 
 Si queremos ver la memoria que ocupa un contenedor, podemos hacerlo de manera general con el comando `docker df`, si queremos verlo de manera más especifica usaremos el mismo comando añadiendole **-v**, quedaría así: `docker df -v`.
 
-> En mi caso **dam_ubu1** ocupa un poco menos que el contenedor **dam_ubu2** (45.7) .
+> En mi caso **dam_ubu1** (46.2) ocupa un poco menos que el contenedor **dam_ubu2** (45.7) .
 
 ## 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto
 
@@ -80,7 +80,7 @@ Actualmente no tengo ningun contenedor arrancado, por lo que el espacio que ocup
 
 
 
-
+> Explicando algunos comandos básicos, para Damian.
 
 
  
