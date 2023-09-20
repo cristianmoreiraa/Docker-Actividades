@@ -76,3 +76,12 @@ Si queremos ver la memoria que ocupa un contenedor, podemos hacerlo de manera ge
 
 ## 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto
 
+Actualmente no tengo ningun contenedor arrancado, por lo que el espacio que ocupan en la `Memoria RAM`, es nulo. En el caso de que tengamos alguno arrancado podremos ver su peso en usando los comandos `docker stats` nos mostrará solo los contenedores que esten activos y `docker stats -a` nos mostrará todos los contenedores activos o no. 
+
+
+
+
+
+
+ 
+#### <font color = yellow>README MADE BY CRISTIAN </font>
