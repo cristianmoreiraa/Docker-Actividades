@@ -1,5 +1,8 @@
 # ***Docker - Comandos Básicos***
 
+###### Antes de nada camibaremos de la rama **MASTER** a la rama **MAIN**, mediante el comando `git branch -M main`.
+
+
 <br>
 
 ## 1. Descarga la imagen de Ubuntu y comprueba que está en tu equipo:
