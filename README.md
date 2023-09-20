@@ -1,6 +1,6 @@
 # <font color="red"> ***Docker - Comandos Básicos***  </font>
 
-###### Antes de nada camibaremos de la rama **MASTER** a la rama **MAIN**, mediante el comando `git branch -M main`.
+###### Antes de nada cambiaremos de la rama **MASTER** a la rama **MAIN**, mediante el comando `git branch -M main`.
 
 
 <br>
@@ -52,7 +52,7 @@
         Descarga el paquete y ya podrémos hacer ping   
 
 
-4. ültimo paso de este apartado, deberemos abrir la terminal y escribir: `ping google.com` y ya le abremos hecho ping a google.
+4. ültimo paso de este apartado, deberemos abrir la terminal y escribir: `ping google.com` y ya le habremos hecho ping a google.
 
 ## 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
 
