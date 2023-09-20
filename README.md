@@ -61,3 +61,8 @@
 - Debemos instalar ping como hicimos en el paso 4. Y una vez que sabemos las 2 ip de cada contendor, podremos hacer ping mediante el comando `ping ip_contenedor`
 
 
+## 6. Sal del terminal, ¿que ocurrió con el contenedor?
+
+1. Para poder salir de la terminal simplemente podemos escribir `exit` y ya estaremos fuera de ella.
+2. Una vez hecho el paso anterior, simplemente hemos cerrado la terminal no hemos borrado los contenedores, podremos volver a ellos con el comando `docker ps -a` y será fácil identificarlos, ya que tenemos los nombres de esos contenedores ***dam_ubu1*** y ***dam_ubu2***.
+
