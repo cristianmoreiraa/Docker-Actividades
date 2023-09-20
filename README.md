@@ -29,3 +29,8 @@
 </details>
 
 
+## 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
+        
+*   En este paso 3, el comando que necesitaremos usar será: `docker run -it --name dam_ubu1 ubuntu` Este comando, nos permite crear el contenedor con el nombre que queremos, además el la parte del código `-it` nos deja poder interacturar con el.
+
+
